@@ -1,0 +1,181 @@
+#content {
+    max-width: 1200px;
+    margin: auto;
+    width: 60%;
+    border: 3px solid rgb(228, 238, 228);
+    padding: 20px;
+    text-align: center;
+  } 
+  .table{
+    float: "right";
+     width: "80%";
+  }
+
+ 
+  .thead {
+  
+    top: -258px;
+    left: -461px;
+    width: 1248px;
+    height: 53px;
+    background-color: #CDCDF8;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .col-sm-10{
+    align-content: end;
+  }
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+  }
+
+  input[type=email], select, textarea {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 10px 10px 10px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 40%;
+    float: center;
+    margin-top: 1%;
+    margin-right: 10%;
+  }
+
+  .table {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 150px;
+    width: 74%;
+    float: right;
+    margin-top: 1%;
+    margin-right: 4%;
+  }
+
+ /* .box {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 40%;
+    float: center;
+    
+    margin-right: 10%;
+  }*/
+  
+  .col-25 {
+    float: left;
+    width: 12%;
+    margin-top: 5px;
+    margin-left: 15%;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 55%;
+    margin-top: 5px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }}
+
+
+    .submit {
+      float: center;
+      width: 70%;
+      height: 50px; /* Set the height of the button to 50 pixels */
+      margin-top: 5px;
+      margin-left: 20%;
+      margin-right: 10%;
+      text-align: center;
+      padding: 15px 25px; /* Adjust the padding to increase the size of the button */
+      font-size: 1.2em;
+      color: rgb(66, 66, 115);
+    }
+    submit:hover {
+      background-color: red;
+    }
+    
+    submit:active {
+      background-color: green;
+    }
+    
+
+
+    .viewform
+    {
+      float: center;
+      width: 50%;
+      margin-top: 20px;
+      margin-left: 32%;
+      margin-right: 20%;
+      text-align: center;
+
+      background-color: #f2f2f2;
+
+    }
+    .App-header {
+      background-color: #282c34;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(10px + 2vmin);
+      color: white;
+    }
+    
+    .App-link {
+      color: #61dafb;
+    }
+
+    /* <div div style={{ float: "right", width: "80%", top: "10%", border: "10", textAlign: "center" ,
+      marginTop :"5%",marginLeft:"5%",marginRight:"5%",marginBottom:"0%" }}> */
